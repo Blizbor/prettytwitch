@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/xinitrc-ls/prettytwitch.svg?branch=master)](https://travis-ci.org/xinitrc-ls/prettytwitch)
+[![Build Status]
+(https://travis-ci.org/xinitrc-ls/prettytwitch.svg?branch=master)](https://travis-ci.org/xinitrc-ls/prettytwitch)
 
 'Pretty Twitch' library
 =======================
