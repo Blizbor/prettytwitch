@@ -21,7 +21,7 @@ Recieving pretty responses
   from time import sleep
 
   NICK = 'Your username'
-  PASS = 'your twitch OAuth token, can `grab it here <https://github.com/LonamiWebs/Telethon/wiki>`_'
+  PASS = 'your twitch OAuth token, can [grab it here](https://twitchapps.com/tmi/) '
   CHAN = '#channel_name'
   
   RATE = (20/30)  # Rate per socket established by Twitch
@@ -62,5 +62,5 @@ Recieving pretty responses
 Next steps
 ----------
 
-Did I get you interested? Make sure to check the `wiki on GitHub <https://github.com/LonamiWebs/Telethon/wiki>`_
+Did I get you interested? Make sure to check the `wiki on GitHub <https://github.com/xinitrc-ls/prettytwitch/wiki>`_
 for documentation, examples, and more useful information.
