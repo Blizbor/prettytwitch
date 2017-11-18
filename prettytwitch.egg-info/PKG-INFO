@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: prettytwitch
+Version: 0.0.1
+Summary: Package for easy identification of IRC Twitch responses, as well as sending requests.
+Home-page: https://github.com/xinitrc-ls/prettytwitch
+Author: Alexander Berdichevskiy
+Author-email: xinitrc@x-hub.co
+License: MIT
+Description: UNKNOWN
+Keywords: twitch,irc,pretty,prettytwitch,prettyirc,twitchbot
+Platform: UNKNOWN
