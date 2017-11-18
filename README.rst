@@ -1,4 +1,5 @@
-[![Build status](https://travis-ci.org/xinitrc-ls/prettytwitch.svg?branch=master)](https://travis-ci.org/Ericsson/codechecker)
+[![Build Status](https://travis-ci.org/xinitrc-ls/prettytwitch.svg?branch=master)](https://travis-ci.org/xinitrc-ls/prettytwitch)
+
 'Pretty Twitch' library
 =======================
 This library allows you to identify any **Twitch IRC** server response and format it to your liking!
