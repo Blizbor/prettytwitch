@@ -12,6 +12,8 @@ Installing
 
 Recieving pretty responses
 --------------------------
+Beforehand: Grab your OAuth token [here](https://twitchapps.com/tmi/)
+
 
 .. code:: python
 
@@ -21,7 +23,7 @@ Recieving pretty responses
   from time import sleep
 
   NICK = 'Your username'
-  PASS = 'your twitch OAuth token, can [grab it here](https://twitchapps.com/tmi/) '
+  PASS = 'your twitch OAuth token'
   CHAN = '#channel_name'
   
   RATE = (20/30)  # Rate per socket established by Twitch
