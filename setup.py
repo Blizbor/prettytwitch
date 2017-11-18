@@ -2,8 +2,8 @@ from setuptools import setup
 
 setup(
     name='prettytwitch',
-    version='0.0.1',
-    description='Package for easy identification of IRC Twitch responses, as well as sending requests.',
+    version='0.5.0',
+    description='This package allows you to identify any Twitch IRC server response and format it to your liking.',
     license='MIT',
     packages=['prettytwitch'],
     author='Alexander Berdichevskiy',
