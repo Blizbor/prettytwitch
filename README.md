@@ -7,17 +7,17 @@ This library allows you to identify any **Twitch IRC** server response and forma
 Installing
 ----------
 
-.. code:: sh
+```sh
 
   pip install prettytwitch
-
+```
 
 Recieving pretty responses
 --------------------------
 Beforehand: Grab your OAuth token here: https://twitchapps.com/tmi/
 
 
-.. code:: python
+```python
 
   from prettytwitch import Response  # importing library
   
@@ -32,8 +32,8 @@ Beforehand: Grab your OAuth token here: https://twitchapps.com/tmi/
 
   s = socket.socket()
   s.connect(('irc.chat.twitch.tv', 6667))
-  s.send("CAP REQ :twitch.tv/commands\r\n".encode())  # Next too lines allows you to recieve more data with your
-  s.send("CAP REQ :twitch.tv/tags\r\n".encode())      # client; you can find more info at dev.twitch.tv
+  s.send("CAP REQ :twitch.tv/commands\r\n".encode())  # Next too lines allows you to recieve more data with
+  s.send("CAP REQ :twitch.tv/tags\r\n".encode())      # your client; you can find more info at dev.twitch.tv
   s.send("PASS {}\r\n".format(PASS).encode("utf-8"))
   s.send("NICK {}\r\n".format(NICK).encode("utf-8"))
   s.send("JOIN {}\r\n".format(CHAN).encode("utf-8"))
@@ -61,10 +61,9 @@ Beforehand: Grab your OAuth token here: https://twitchapps.com/tmi/
           print(Response(response))
 
       sleep(1 / RATE)
-
+```
 
 Next steps
 ----------
 
-Did I get you interested? Make sure to check the `wiki on GitHub <https://github.com/xinitrc-ls/prettytwitch/wiki>`_
-for documentation, examples, and more useful information.
+Did I get you interested? Make sure to check the [wiki on GitHub](https://github.com/xinitrc-ls/prettytwitch/wiki) for documentation, examples, and more useful information.
