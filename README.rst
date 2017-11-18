@@ -28,8 +28,8 @@ Recieving pretty responses
 
   s = socket.socket()
   s.connect(('irc.chat.twitch.tv', 6667))
-  s.send("CAP REQ :twitch.tv/commands\r\n".encode())  # Next too lines allows you to recieve more data with your client
-  s.send("CAP REQ :twitch.tv/tags\r\n".encode())      # you can find more info at dev.twitch.tv
+  s.send("CAP REQ :twitch.tv/commands\r\n".encode())  # Next too lines allows you to recieve more data with your
+  s.send("CAP REQ :twitch.tv/tags\r\n".encode())      # client; you can find more info at dev.twitch.tv
   s.send("PASS {}\r\n".format(PASS).encode("utf-8"))
   s.send("NICK {}\r\n".format(NICK).encode("utf-8"))
   s.send("JOIN {}\r\n".format(CHAN).encode("utf-8"))
@@ -38,6 +38,7 @@ Recieving pretty responses
   # Reason for this mess is that because of the ratelimit we can get certain data in chunks,
   # and sometimes those chunks might not be complete, example gratia:
   # ThisIsLine1\r\nThisIsLine2\r\nThisIsLi
+
   leftovers = ''
   while True:
       raw_responses = s.recv(1024).decode("utf-8")
