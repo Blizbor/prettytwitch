@@ -12,7 +12,7 @@ Installing
 
 Recieving pretty responses
 --------------------------
-Beforehand: Grab your OAuth token [here](https://twitchapps.com/tmi/)
+Beforehand: Grab your OAuth token here: https://twitchapps.com/tmi/
 
 
 .. code:: python
