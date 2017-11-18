@@ -1,3 +1,5 @@
+.. image:: https://badge.fury.io/py/prettytwitch.svg
+   :target: https://badge.fury.io/py/prettytwitch
 .. image:: https://travis-ci.org/xinitrc-ls/prettytwitch.svg?branch=master
    :target: https://travis-ci.org/xinitrc-ls/prettytwitch
 .. image:: https://api.codeclimate.com/v1/badges/d55d881eb2d7dd7a5d05/maintainability
