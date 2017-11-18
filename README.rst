@@ -1,3 +1,9 @@
+.. image:: https://travis-ci.org/xinitrc-ls/prettytwitch.svg?branch=master
+   :target: https://travis-ci.org/xinitrc-ls/prettytwitch
+.. image:: https://api.codeclimate.com/v1/badges/d55d881eb2d7dd7a5d05/maintainability
+   :target: https://codeclimate.com/github/xinitrc-ls/prettytwitch/maintainability
+   :alt: Maintainability
+
 'Pretty Twitch' library
 =======================
 This library allows you to identify any **Twitch IRC** server response and format it to your liking!
